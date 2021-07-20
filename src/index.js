@@ -12,11 +12,10 @@ import './assets/scss/style.scss';
 const history = createBrowserHistory();
 
 ReactDOM.render(
-  <Router history={history}>
+  <React.StrictMode>
     <App />
     <h1>happy</h1>
-  </Router>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
 
 // If you want your app to work offline and load faster, you can change
