@@ -3,21 +3,19 @@ import ReactDOM from 'react-dom';
 import { Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
 
-import App from './App.js';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-//import './App.css';
+import './App.css';
 import './assets/scss/style.scss';
 
 const history = createBrowserHistory();
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Router history={history}>
     <App />
-    <h1>happy</h1>
-  </React.StrictMode>,
+  </Router>,
   document.getElementById('root')
-
 );
 
 // If you want your app to work offline and load faster, you can change
