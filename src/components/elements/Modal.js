@@ -36,13 +36,13 @@ const Modal = ({
     return () => {
       document.removeEventListener('keydown', keyPress);
       document.removeEventListener('click', stopProgagation);
-    };    
+    };
   });
 
   useEffect(() => {
     handleBodyClass();
-  }, [props.show]); 
-  
+  }, [props.show]);
+
   const handleBodyClass = () => {
     if (document.querySelectorAll('.modal.is-active').length) {
       document.body.classList.add('modal-is-active');
@@ -80,7 +80,7 @@ const Modal = ({
                 {videoTag === 'iframe' ?
                   <iframe
                     title="video"
-                    src={video}
+                    src='https://drive.google.com/file/d/1tX_P-dm2MT9hCSkxr5absPDQ6vM0FHYz/view?usp=drivesdk'
                     frameBorder="0"
                     allowFullScreen
                   ></iframe> :
