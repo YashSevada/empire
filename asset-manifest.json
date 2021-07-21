@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/empire/static/css/main.6896e5e2.chunk.css",
-    "main.js": "/empire/static/js/main.1b4e01cc.chunk.js",
-    "main.js.map": "/empire/static/js/main.1b4e01cc.chunk.js.map",
+    "main.js": "/empire/static/js/main.4a58f75f.chunk.js",
+    "main.js.map": "/empire/static/js/main.4a58f75f.chunk.js.map",
     "runtime-main.js": "/empire/static/js/runtime-main.67948117.js",
     "runtime-main.js.map": "/empire/static/js/runtime-main.67948117.js.map",
     "static/js/2.857989c4.chunk.js": "/empire/static/js/2.857989c4.chunk.js",
     "static/js/2.857989c4.chunk.js.map": "/empire/static/js/2.857989c4.chunk.js.map",
     "index.html": "/empire/index.html",
-    "precache-manifest.a6cbcadb29abf68f0bfa4d793d38fa22.js": "/empire/precache-manifest.a6cbcadb29abf68f0bfa4d793d38fa22.js",
+    "precache-manifest.fc765baa5c4878b06f319e57b1911230.js": "/empire/precache-manifest.fc765baa5c4878b06f319e57b1911230.js",
     "service-worker.js": "/empire/service-worker.js",
     "static/css/main.6896e5e2.chunk.css.map": "/empire/static/css/main.6896e5e2.chunk.css.map",
     "static/js/2.857989c4.chunk.js.LICENSE.txt": "/empire/static/js/2.857989c4.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.67948117.js",
     "static/js/2.857989c4.chunk.js",
     "static/css/main.6896e5e2.chunk.css",
-    "static/js/main.1b4e01cc.chunk.js"
+    "static/js/main.4a58f75f.chunk.js"
   ]
 }
