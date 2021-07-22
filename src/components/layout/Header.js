@@ -120,7 +120,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" onClick={closeMenu}>Contact</Link>
+                        <Link to="/contact" onClick={closeMenu}>Contact</Link>
                       </li>
                     </ul>}
                 </div>
